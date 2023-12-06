@@ -16,4 +16,14 @@ jobs:
       - uses: actions/setup-python@v4
         with:
             python-version: 'pypy3.9'
-      - run: pip install -r requirements.txt
+      - run: pip install Flask
+             pip install Flask
+             pip install requests
+             pip install joblib
+             pip install scikit-learn
+             pip install scipy
+             pip install Jinja2
+             pip install requests
+             pip install pandas
+             pip install numpy
+             

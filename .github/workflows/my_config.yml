@@ -1,0 +1,16 @@
+name: Great learning Actions
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: First build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - run: pip install -r requirements.txt

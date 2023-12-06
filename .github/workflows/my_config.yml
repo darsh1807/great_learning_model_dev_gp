@@ -28,6 +28,7 @@ jobs:
              pip install numpy
              pip install pandas
              pip install requests
+             pip install meson-python
              pip install scikit-learn
              pip install scipy
              pip install threadpoolctl

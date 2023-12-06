@@ -17,11 +17,13 @@ jobs:
         with:
             python-version: 'pypy3.9'
       - run: pip install Flask
+             pip install Jinja2
              pip install requests
              pip install joblib
-             pip install --no-build-isolation scikit-learn
-             pip install Jinja2
              pip install requests
              pip install pandas
              pip install numpy
+             pip install --no-build-isolation scikit-learn
+             
+
              

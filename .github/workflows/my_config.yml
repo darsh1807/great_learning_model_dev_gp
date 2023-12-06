@@ -19,7 +19,7 @@ jobs:
       - run: pip install Flask
              pip install requests
              pip install joblib
-             pip install -U scikit-learn
+             pip install --no-build-isolation scikit-learn
              pip install Jinja2
              pip install requests
              pip install pandas

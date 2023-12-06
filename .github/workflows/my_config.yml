@@ -34,5 +34,13 @@ jobs:
              pip install threadpoolctl
              pip install urllib3
              
+      - uses: mr-smithers-excellent/docker-build-push@v4
+        name: Build & push Docker image
+        with:
+            image: darshin13/greatlearninggp
+            registry: docker.io
+            username: ${{ secrets.DOCKER_USERNAME }}
+            password: ${{ secrets.DOCKER_PASSWORD }}
+             
 
              

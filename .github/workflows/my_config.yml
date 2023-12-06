@@ -21,6 +21,7 @@ jobs:
              pip install requests
              pip install joblib
              pip install requests
+             pip install meson-python
              pip install pandas
              pip install numpy
              pip install --no-build-isolation scikit-learn

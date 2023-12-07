@@ -20,6 +20,6 @@ To run the Python script, you'll need to use the `my_config.yml` configuration f
 # my_config.yml - https://github.com/darsh1807/great_learning_model_dev_gp/blob/main/.github/workflows/my_config.yml
 ![image](https://github.com/darsh1807/great_learning_model_dev_gp/assets/58906873/3511c255-77c8-4c5f-aa29-cb3e4fe9d1bd)
 script:
-  - url: ["https://example.com/your_python_script.py"](https://github.com/darsh1807/great_learning_model_dev_gp/blob/main/req_main.py)
+  - url: (https://github.com/darsh1807/great_learning_model_dev_gp/blob/main/req_main.py)
     filename: "req_main.py"
 
